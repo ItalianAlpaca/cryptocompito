@@ -1,0 +1,220 @@
+* {
+    background-color: #222222;
+    color:white;
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 64px;
+}
+h3 {
+    font-size: 40px;
+}
+p {
+    font-size: 32px;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 6.2rem;
+    width: 6.2rem;
+    margin-right: 2rem;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.anchors-wrapper {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 3em;
+}
+
+.logo-wrapper p {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
+.btn-login{
+width: 159px;
+height: 80px;
+border:none;
+background: #222222;
+box-shadow: 0px 0px 10px #F501FF;
+border-radius: 64px;
+cursor:pointer;
+font-size: 2em;
+
+}
+
+.cta {
+    border:none;
+    background: #222222;
+    box-shadow: 0px 0px 10px #F501FF;
+    border-radius: 64px;
+    cursor:pointer;
+    font-size: 2em;
+
+    width: 360px;
+    height: 82px;
+}
+
+.hero {
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    margin-top: 36rem;
+}
+
+.hero h1 {
+    font-size: 128px;
+    padding: 2rem;
+}
+#binance-coin {
+    position: absolute;
+    width: 196.58px;
+    height: 196.58px;
+    left: 2037px;
+    top: 628px;
+
+    background: url(binance);
+    transform: rotate(45deg);
+} 
+
+#btc-coin {
+    position: absolute;
+width: 250px;
+height: 250px;
+left: 1733px;
+top: 285px;
+
+background: url(bitcoin);
+transform: rotate(30deg);
+}
+
+#eth-coin {
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    left: 100px;
+    top: 563px;
+
+    background: url(ethereum);
+    transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+}
+
+#tether-coin {
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 420px;
+    top: 230px;
+
+    background: url(tether);
+    transform: matrix(-0.97, 0.26, 0.26, 0.97, 0, 0);
+}
+
+.trailer {
+    margin-top: 50rem;
+    text-align: center;
+}
+
+.video {
+    margin-top: 20rem;
+    padding: 10px;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.video p{
+    padding-left: 10rem;
+}
+
+iframe {
+    box-shadow: 0px 0px 35px -3px rgba(242, 1, 255, 0.2);
+    border-radius: 50px;
+    width: 542px;
+    height: 302px;
+}
+
+.blog {
+    text-align: center;
+    margin: 20rem 0;
+}
+
+.games {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    margin-top: 20rem;
+}
+
+.games-wrapper {
+    text-align: center;
+    padding: 0 10rem;
+}
+
+.game-pic {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 0px 35px -3px rgba(242, 1, 255, 0.2);
+    border-radius: 80px;
+    object-fit: cover;
+    margin-bottom: 10rem;;
+}
+
+footer {
+    height: 408px;
+
+    display: flex;
+    justify-content:  space-around;
+    padding-top: 10rem;
+
+    /* black text */
+
+    background: #222222;
+    box-shadow: 0px 0px 10px #F501FF;
+    border-radius: 145px 145px 0px 0px;
+}
+
+.info {
+     text-align: left;
+     height: 50%;
+}
+
+.info img{
+    padding-right: 2rem;
+    padding-top: 4rem;
+    width: 32px;
+    height: 32px;;
+}
+
+.cookie-banner {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
